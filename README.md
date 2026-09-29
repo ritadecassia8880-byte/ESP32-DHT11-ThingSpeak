@@ -37,21 +37,21 @@ No ThingSpeak, os dados são organizados da seguinte forma:
 Teste inicial para verificar a conexão da ESP32 com a rede Wi-Fi.
 
 Código:
-`01_conexao_wifi/conexao_wifi.ino`
+[conexao_wifi.ino](./01_conexao_wifi/conexao_wifi.ino)
 
 ### 2. Comunicação com o ThingSpeak
 
 Teste do envio de dados da ESP32 para o ThingSpeak.
 
 Código:
-`02_conexao_thingspeak/conexao_thingspeak.ino`
+[conexao_thingspeak.ino](./02_conexao_thingspeak/conexao_thingspeak.ino)
 
 ### 3. Utilização de dois Fields
 
 Teste do envio de dois valores para o mesmo canal do ThingSpeak.
 
 Código:
-`03_dois_fields/dois_fields.ino`
+[dois_fields.ino](./03_dois_fields/dois_fields.ino)
 
 ### 4. Projeto final
 
@@ -60,7 +60,7 @@ Integração da ESP32 com o sensor DHT11 e o ThingSpeak.
 O sistema realiza a leitura da temperatura e da umidade e envia os valores para os Fields correspondentes.
 
 Código:
-`04_projeto_final/dht11_thingspeak.ino`
+[dht11_thingspeak.ino](./04_projeto_final/dht11_thingspeak.ino)
 
 ## Bibliotecas utilizadas
 
